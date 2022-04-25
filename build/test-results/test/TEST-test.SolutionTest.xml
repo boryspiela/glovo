@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.SolutionTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-03-08T11:26:32" hostname="LAPTOP-SSQGTHI5" time="0.092">
+  <properties/>
+  <testcase name="checksClosings [input: (), expectedResult: true, #0]" classname="test.SolutionTest" time="0.075"/>
+  <testcase name="checksClosings [input: ()[]{}, expectedResult: true, #1]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: (], expectedResult: false, #2]" classname="test.SolutionTest" time="0.001"/>
+  <testcase name="checksClosings [input: )(, expectedResult: false, #3]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: ([)], expectedResult: false, #4]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: {[]}, expectedResult: true, #5]" classname="test.SolutionTest" time="0.001"/>
+  <testcase name="checksClosings [input: ), expectedResult: false, #6]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: ([], expectedResult: false, #7]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: {, expectedResult: false, #8]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: ([)]), expectedResult: false, #9]" classname="test.SolutionTest" time="0.001"/>
+  <testcase name="checksClosings [input: (((((((((()))))))))), expectedResult: true, #10]" classname="test.SolutionTest" time="0.001"/>
+  <testcase name="checksClosings [input: , expectedResult: true, #11]" classname="test.SolutionTest" time="0.0"/>
+  <testcase name="checksClosings [input: ()]], expectedResult: false, #12]" classname="test.SolutionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
